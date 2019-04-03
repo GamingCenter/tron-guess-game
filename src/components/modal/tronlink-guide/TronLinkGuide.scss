@@ -1,0 +1,30 @@
+.tronLink {
+    margin: 0 10px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h1 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .info {
+        flex: 1;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+}
+
+.tronLink.hover {
+    transition: all 200ms ease;
+    cursor: pointer;
+}
